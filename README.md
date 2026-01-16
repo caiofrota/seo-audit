@@ -58,32 +58,49 @@ pip install -r requirements.txt
 
 ### 3) Install Playwright browsers
 
+```bash
 playwright install
+```
+
+## 🔧 Install as a global command (recommended)
+
+To run the tool from any directory, install it in editable mode:
+
+```bash
+python -m pip install -e .
+```
+
+This will register the seo-audit command in your system.
+You can verify the installation with:
+
+```bash
+seo-audit --help
+```
 
 ## ▶️ Usage
 
 Basic audit
 
 ```bash
-python seo-audit.py https://www.example.com
+seo-audit https://www.example.com
 ```
 
 Limit the number of analyzed pages
 
 ```bash
-python seo-audit.py https://www.example.com --max-pages 20
+seo-audit https://www.example.com --max-pages 20
 ```
 
 Specify output file
 
 ```bash
-python seo-audit.py https://www.example.com --out seo-report.md
+seo-audit https://www.example.com --out seo-report.md
 ```
 
 Automatically accept cookie banners (optional)
 
 ```bash
-python seo-audit.py https://www.example.com --cookie-accept-text "Accept"
+seo-audit https://www.example.com --cookie-accept-text "Accept"
 ```
 
 ## 📄 Output

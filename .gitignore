@@ -4,4 +4,5 @@ __pycache__/
 venv/
 *.log
 seo-report.md
+seo_audit.egg-info/
 playwright/.cache/
