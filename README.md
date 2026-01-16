@@ -65,25 +65,25 @@ playwright install
 Basic audit
 
 ```bash
-python seo_audit.py https://www.example.com
+python seo-audit.py https://www.example.com
 ```
 
 Limit the number of analyzed pages
 
 ```bash
-python seo_audit.py https://www.example.com --max-pages 20
+python seo-audit.py https://www.example.com --max-pages 20
 ```
 
 Specify output file
 
 ```bash
-python seo_audit.py https://www.example.com --out seo-report.md
+python seo-audit.py https://www.example.com --out seo-report.md
 ```
 
 Automatically accept cookie banners (optional)
 
 ```bash
-python seo_audit.py https://www.example.com --cookie-accept-text "Accept"
+python seo-audit.py https://www.example.com --cookie-accept-text "Accept"
 ```
 
 ## 📄 Output
